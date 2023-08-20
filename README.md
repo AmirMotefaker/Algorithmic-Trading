@@ -49,3 +49,5 @@
                         progress=False)
                         
   - print(data.head())
+ 
+### The above code will collect the stock price data from today to the last 360 days. In this dataset, Date is not a column, it’s the index of this dataset. To use this data for any data science task, we need to convert this index into a column. Below is how you can do that:
