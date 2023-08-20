@@ -23,15 +23,15 @@
 - I hope you have easily installed this API. Now below is how you can get the latest stock price data using Python:
 
 
-import pandas as pd
-
-import yfinance as yf
-
-import datetime
-
-from datetime import date, timedelta
-
-today = date.today()
+  - import pandas as pd
+  
+  - import yfinance as yf
+  
+  - import datetime
+  
+  - from datetime import date, timedelta
+  
+  - today = date.today()
 
 
 d1 = today.strftime("%Y-%m-%d")
